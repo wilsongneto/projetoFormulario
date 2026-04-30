@@ -28,7 +28,7 @@ function salvarCarro(event) {
 }
 
 function adicionarNaTela(carro) {
-    let lista = document.getElementById('listarCarros');
+    let lista = document.getElementById('listaCarros');
     let card = document.createElement('div');
     card.classList.add('card');
 
